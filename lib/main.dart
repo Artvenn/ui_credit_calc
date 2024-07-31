@@ -51,6 +51,7 @@ class MyHomePage extends StatelessWidget {
             height: 5,
           ),
           TextField(
+            keyboardType: TextInputType.number,
             readOnly: true,
             decoration: InputDecoration(
               label: Text('Credit amount'),
